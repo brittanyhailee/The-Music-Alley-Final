@@ -1,0 +1,316 @@
+html {
+    background-image: url("../imgs/paper_bg.jpg");
+
+    --khaki: #BAA390; 
+    --almond: #E2D2C3;
+    --white:#EEEBE5;
+    --charcoal: #424A54;
+    --sand: #D9BFAC;
+    --green: #6D7361;
+    --light_green: #D2D6C7;
+    --grey: #474747;
+        
+
+}
+
+
+
+.shop-name {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+hr {
+  border-color: var(--white);
+}
+
+.logo {
+  height: 150px;
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+
+.welcome-msg {
+  display: flex;
+  
+  font-family: "special elite";
+}
+
+.welcome-msg h1 {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.selection  {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* the margins below is for both "users" and "inventory" to be aligned in the center */
+    /* margin-left: auto;
+    margin-right: auto; */
+    justify-content: center;
+    width: 500px;
+
+}
+
+.selection #users {
+  background-color: var(--khaki);
+}
+
+
+#add-product {
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  /* height: 100vh; / */
+  /* height: 40px;
+  width: 70px; */
+  /* border: 2px solid var(--sand);
+  font-family: "merriweather"; */
+  
+}
+button {
+  height: 50px;
+  width: 150px;
+  border: 2px solid var(--sand);
+  font-family: "merriweather";
+  background-color: white;
+  border-radius: 10px;
+  font-size: 20px;
+
+}
+.add {
+  justify-self: center;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 20px;
+  
+}
+
+
+.choice {
+    /* width: 125px; */
+    /* margin-right: auto;
+    margin-left: 120px; */
+    padding:0;
+    margin: 0;
+    font-size: 30px;
+    font-family: "Special Elite", "merriweather";
+    height: 50px;
+    width: 450px;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+    background-color: var(--almond);
+    /* border: none; */
+    border: 1px solid #474747;
+   
+    /* align-self: center; */
+}
+
+
+.choice:hover {
+    cursor: pointer;
+}
+
+b {
+  font-family: "merriweather";
+  font-size: 15px;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  margin-top: 5px;
+  /* margin-left: 150px; */
+  justify-content: center;
+  width: 150px;
+  /* background-color: var(--sand);
+  border-radius: 20px; */
+  height: 60px;
+  color: var(--grey);
+}
+
+.pagination a {
+  font-family: "Special Elite";
+  font-size: 20px;
+  padding: 5px;
+  color: var(--green);
+
+}
+
+.pagination p{
+  font-family: "Special Elite";
+  font-size: 20px;
+  padding: 5px;
+
+}
+
+.table-header td {
+  border: 1px solid var(--charcoal);
+  background-color: var(--almond);
+  border-top: none;
+}
+
+.table-header a {
+  color: var(--charcoal);
+}
+
+.inventory-header td {
+  /* display: block; */
+  border: 1px solid var(--charcoal);
+
+  background-color: var(--almond);
+  border-top: none;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+tr {
+  font-size: 20px;
+}
+
+.inventory-header a {
+  color: var(--charcoal);
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  align-items: center;
+  font-family: "Merriweather";
+  font-size: 20px;
+  
+}
+.form-container form {
+  background-color: var(--white);
+  width: 540px;
+  border-right: 1px solid var(--charcoal);
+  border-left: 1px solid var(--charcoal);
+  border-bottom: 1px solid var(--charcoal);
+  align-content: center;
+}
+
+.form-container input {
+  height: 40px;
+  width: 210px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: 2px solid var(--khaki);
+  margin-right: auto;
+  
+}
+.form-container .edit-input {
+  margin: 5px;
+  font-size: 20px;
+  margin-right: auto;
+  margin-left: 105px;
+  
+}
+
+.submit-edit {
+  margin-right: auto;
+  margin-left: 150px;
+  background-color: var(--white);
+  align-self: center;
+}
+
+.submit-edit input {
+  margin: 10px;
+  background-color: var(--light_green);
+  border: none;
+  font-family: "Special Elite";
+  
+}
+
+
+#backBtn {
+  width: 90px;
+}
+#backBtn:hover {
+  background-color: var(--khaki);
+}
+
+#backBtn:active {
+  background-color: var(--khaki);
+}
+
+#status {
+  text-align: center;
+  font-family: "Special Elite";
+  font-size: 20px;
+  color: #960018;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+.special-elite-regular {
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .merriweather-light-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .merriweather-regular-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .merriweather-bold-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .merriweather-black-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+
+

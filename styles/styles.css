@@ -1,0 +1,246 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Apr 29, 2024, 10:07:38 AM
+    Author     : brittany
+*/
+html {
+    
+    background-image: url("../imgs/paper_bg.jpg");
+    --khaki: #BAA390; 
+    --almond: #E2D2C3;
+    --white:#EEEBE5;
+    --charcoal: #424A54;
+    --sand: #D9BFAC;
+    --green: #6D7361;
+    
+}
+.shop-details {
+    text-align: center;
+    font-family: "Special Elite";
+    font-weight: 400;
+    color: var(--green);
+    padding: 10px;
+    margin: 20px;
+}
+.shop-details h2 {
+    color: var(--charcoal);
+}
+.shop-details h1 {
+    margin: 10px;
+}
+
+.shop-motto {
+    margin: 5px;
+}
+
+
+h1 {
+  text-align: center;
+  font-family: "Special Elite";
+}
+
+
+/* form {
+
+  font-family: "Special Elite";
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  margin: 0;
+  
+} */
+
+.form-elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  
+
+}
+
+
+.container {
+ display: flex;
+ flex-direction: column;
+  
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Special Elite";
+  align-items: center;
+  
+  margin: 0;
+
+  border: 2px solid var(--green);
+  width: 450px;
+  
+}
+input {
+  height: 40px;
+  border: 2px solid var(--green);
+}
+
+
+button {
+  display: block;
+  justify-self: center;
+  align-items: center;
+  height: 60px;
+  width: 150px;
+  border-radius: 10px;
+  border: 2px solid var(--green);
+  background-color: var(--white);
+  margin: 0;
+  margin-left: 100px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: "merriweather";
+}
+
+.error {
+  text-align: center;
+  font-family: "merriweather";
+  font-size: 15px;
+  color: red;
+}
+
+
+/*
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+
+.logo {
+    -webkit-animation: spin 3s infinite linear;
+    animation: spin 7s linear infinite;
+}*/
+
+/*START OF MAJOR COMMENTED OUT OF STYLES TO FIX THE REGISTER PAGE
+ Bordered form 
+form {
+  border: 3px solid #f1f1f1;
+  width: 60%;
+  margin: 50px 50px;
+  align-self: center;
+
+  border: 3px solid #f1f1f1;
+  width: 55%;
+  margin: 50px auto;  Change margin to auto to center horizontally 
+  padding: 20px;  Added padding for better spacing 
+  box-sizing: border-box;  Ensure padding is included in the width 
+}
+
+.container {
+    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Ubuntu";
+  font-weight: 200;
+  align-self: center;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Special Elite";
+  font-weight: 200;
+  padding: 16px;
+}
+ Full-width inputs 
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 8px;
+  display: block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+ Set a style for all buttons 
+button {
+  background-color: #24305E;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 8px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+
+ Add a hover effect for buttons 
+button:hover {
+  opacity: 0.8;
+} END HERE*/
+
+
+
+.special-elite-regular {
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.merriweather-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.merriweather-light-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merriweather-regular-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.merriweather-bold-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.merriweather-black-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+

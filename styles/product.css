@@ -1,0 +1,170 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : May 29, 2024, 8:37:45 AM
+    Author     : brittany
+*/
+
+html {
+    background-image: url("../imgs/paper_bg.jpg");
+
+    --khaki: #BAA390; 
+    --almond: #E2D2C3;
+    --white:#EEEBE5;
+    --charcoal: #424A54;
+    --sand: #D9BFAC;
+    --green: #6D7361;
+    --light_green: #D2D6C7;
+    --grey: #474747;
+        
+
+}
+.product-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    font-family: "Special Elite";
+    font-weight: 10px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  
+  
+}
+.product-container {
+  display: flex;
+  flex-direction: row;
+    color: var(--grey);
+    margin: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 150px;
+    width: 100%;
+    
+    
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 50px;
+  margin-top: 80px;
+}
+
+.price {
+    margin: 0;
+    font-size: 2em;
+}
+
+input[type=number] {
+    height: 30px;
+    width: 70px;
+    font-family: "merriweather";
+    font-size: 1.4em;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border-color: var(--light_green);
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    align-self: center;
+    margin: 0;
+    margin-left: 50px;
+    
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+.description {
+  font-size: 20px;
+  font-family: "merriweather";
+  padding: 10px;
+}
+.toCart {
+  border-radius: 10px;
+  background-color: var(--light_green);
+  height: 50px;
+  font-size: 20px;
+  width: 150px;
+  border-style: none;
+  font-family: "merriweather";
+  align-self: center;
+}
+
+.toCart:hover {
+  opacity: 60%;
+}
+
+.toCart:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
+}
+
+
+
+
+.special-elite-regular {
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.merriweather-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.merriweather-light-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merriweather-regular-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.merriweather-bold-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.merriweather-black-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+}

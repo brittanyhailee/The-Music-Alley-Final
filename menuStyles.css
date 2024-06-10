@@ -1,0 +1,144 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : May 20, 2024, 11:47:52 AM
+    Author     : brittany
+*/
+html {
+    height: auto;
+    width: 100%;
+    
+}
+body {
+    
+    
+    background-image: url("imgs/paper_bg.jpg");
+    margin: 0px 0px 0px 0px;
+    --khaki: #BAA390; 
+    --almond: #E2D2C3;
+    --white:#EEEBE5;
+    --charcoal: #424A54;
+    --sand: #D9BFAC;
+    --green: #6D7361;
+    --light_green: #D2D6C7;
+    --grey: #474747;
+    
+}
+
+.nav-bar {
+    
+    display: flex;
+    background-color: var(--grey);
+    height: 80px;
+   /* //display: inline-block;*/
+    flex-direction: row;
+    width: 100%;
+}
+
+.shop-name {
+    display: inline-block;
+    text-align: center;
+    font-family: "Special Elite";
+    font-weight: 500;
+    font-size: 37px;
+    padding: 20px;
+
+    color: var(--light_green);
+}
+
+
+
+.bar-content {
+   display: flex;
+   padding: 10px;
+   align-content: center;
+   height: 60px;
+   overflow: hidden;
+   justify-content: center;
+
+    font-size: 30px;
+    font-family: "Merriweather", serif;
+    width: auto;
+    
+
+}
+.bar-content a {
+    padding: 10px;
+    color: var(--white);
+    margin: 0 50px;
+    text-decoration: none;
+
+}
+
+.bar-content a:hover {
+    background-color: var(--green);
+}
+
+.product { 
+    font-family: "Special Elite"; 
+    text-decoration: none;
+    color: var(--grey);
+}
+
+
+.category h1 {
+    text-align: center;
+    font-size: 40px;
+    color: var(--green);
+    font-family: "Special Elite";
+}
+
+.special-elite-regular {
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.merriweather-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.merriweather-light-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merriweather-regular-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.merriweather-bold-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.merriweather-black-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+}

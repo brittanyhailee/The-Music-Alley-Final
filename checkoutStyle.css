@@ -1,0 +1,141 @@
+
+html {
+    font-family: "special-elite";
+    background-image: url("imgs/paper_bg.jpg");
+    --khaki: #BAA390; 
+    --almond: #E2D2C3;
+    --white:#EEEBE5;
+    --charcoal: #424A54;
+    --sand: #D9BFAC;
+    --green: #6D7361;
+    --light_green: #D2D6C7;
+    --grey: #474747;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    
+    object-fit: contain;
+    align-content: center;
+    
+}
+
+.labels {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.labels div {
+    padding: 70px;
+    font-family: "merriweather";
+}
+
+.product-title {
+    margin: 0;
+    padding: 0;
+}
+
+
+.show-cart {
+    padding: 0;
+    margin: 0;
+    /* background-image: url("imgs/receipt.png"); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 750px;
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    color: var(--charcoal);
+    justify-content: center;
+    text-align: center;
+
+    
+}
+
+.product-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    /* margin: 30px; */
+}
+
+/* .product-container p {
+    padding-left: 140px;
+    padding-right: 40px;
+
+} */
+
+.product-name {
+    /* padding-left: 90px;
+    padding-right: 40px; */
+    width: 200px;
+    /* padding-right: 30px; */
+}
+
+.product-price {
+    /* margin-right: 40px; */
+    /* padding-left: 180px; */
+    padding-left: 80px;
+    text-align: center;
+    justify-content: center;
+    padding-right: 40px;
+    left:auto;
+    
+}
+
+.product-total {
+    padding-left: 90px;
+}
+
+.product-quantity {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+/* .all-items {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    text-align: center;
+} */
+
+.item p {
+    margin: 30px;
+
+}
+
+.items hr {
+color: var(--green);
+opacity: 40%;
+}
+
+.items {
+    font-size: 20px;
+}
+
+h1 {
+    font-family: "Special Elite";
+    font-size: 40px;
+    text-align: center;
+    color: var(--green);
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.cart-total {
+    font-family: "special elite";
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.special-elite-regular {
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+

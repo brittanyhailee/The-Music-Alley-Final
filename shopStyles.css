@@ -1,0 +1,220 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : May 20, 2024, 11:47:52 AM
+    Author     : brittany
+*/
+html {
+    height: auto;
+    width: 100%;
+    
+}
+body {
+    
+    
+    background-image: url("imgs/paper_bg.jpg");
+    margin: 0px 0px 0px 0px;
+    --khaki: #BAA390; 
+    --almond: #E2D2C3;
+    --white:#EEEBE5;
+    --charcoal: #424A54;
+    --sand: #D9BFAC;
+    --green: #6D7361;
+    --light_green: #D2D6C7;
+    --grey: #474747;
+    
+}
+
+hr {
+  border-color: var(--white);
+}
+.nav-bar {
+    
+    display: flex;
+    background-color: var(--grey);
+    height: 80px;
+   /* //display: inline-block;*/
+    flex-direction: row;
+    width: 100%;
+}
+
+.shop-name {
+    display: inline-block;
+    text-align: center;
+    font-family: "Special Elite";
+    font-weight: 500;
+    font-size: 37px;
+    padding: 20px;
+
+    color: var(--light_green);
+}
+
+
+
+.bar-content {
+   display: flex;
+   padding: 10px;
+   align-content: center;
+   height: 60px;
+   overflow: hidden;
+   justify-content: center;
+
+    font-size: 30px;
+    font-family: "Merriweather", serif;
+    width: auto;
+    
+
+}
+.bar-content a {
+    padding: 10px;
+    color: var(--white);
+    margin: 0 50px;
+    text-decoration: none;
+
+}
+
+.bar-content a:hover {
+    background-color: var(--green);
+}
+
+.product { 
+    font-family: "Special Elite"; 
+    text-decoration: none;
+    color: var(--grey);
+}
+
+.msg-container {
+  text-align: center;
+  font-family: "special elite";
+  padding: 10px;
+  font-size: 30px;
+  color: var(--grey);
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.welcome-msg {
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.note {
+
+  padding: 10px;
+  animation: floatNote 3s infinite alternate;
+}
+
+@keyframes floatNote {
+  0% {
+      transform: translateY(5); /* Start position */
+  }
+  100% {
+      transform: translateY(-10px); /* End position */
+  }
+}
+
+.category h1 {
+  display: block;
+    text-align: center;
+    font-size: 60px;
+    color: var(--green);
+    font-family: "Special Elite";
+    margin: 10px;
+}
+
+.container {
+  display: flex;
+  
+}
+
+.product-container {
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: var(--almond); */
+  width: 350px;
+  /* align-items: center; */
+  align-content: center;
+  text-align: center;
+  padding: 0;
+  height: 550px;
+
+}
+
+.product-name {
+  font-size: 27px;
+  margin: 0;
+  padding: 0;
+}
+
+.artist, .price {
+  font-size: 23px;
+  color: var(--green);
+}
+
+.product-container:hover {
+  opacity: 80%;
+  box-shadow: 3px 5px 4px #6D7361;
+}
+
+
+.special-elite-regular {
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.merriweather-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.merriweather-light-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merriweather-regular-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.merriweather-bold-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.merriweather-black-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+}
